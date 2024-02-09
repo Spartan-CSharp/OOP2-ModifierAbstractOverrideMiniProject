@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CardGameLibrary
+namespace CardGameLibrary.Enums
 {
-    public class Class1
-    {
-    }
+	public enum CARDSUIT
+	{
+		Hearts,
+		Clubs,
+		Diamonds,
+		Spades
+	}
 }
